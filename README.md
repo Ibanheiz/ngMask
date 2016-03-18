@@ -140,8 +140,12 @@ You can make your mask using some patterns available. If you use a pattern not s
       - Any alphabet letter without accents
    - **\#** =====> /[a-zA-ZçáàãâéèêẽíìĩîóòôõúùũüûÇÀÁÂÃÈÉÊẼÌÍÎĨÒÓÔÕÙÚÛŨ]/
       - Any alphabet letter with accents
+   - **\~** =====> /[a-zA-ZçáàãâéèêẽíìĩîóòôõúùũüûÇÀÁÂÃÈÉÊẼÌÍÎĨÒÓÔÕÙÚÛŨ\s]/
+      - Any alphabet letter with accents and whitespaces
    - **%** =====> /[0-9a-zA-zçáàãâéèêẽíìĩîóòôõúùũüûÇÀÁÂÃÈÉÊẼÌÍÎĨÒÓÔÕÙÚÛŨ]/
       - Any digit and alphabet letter with accents
+   - **&** =====> /[0-9a-zA-zçáàãâéèêẽíìĩîóòôõúùũüûÇÀÁÂÃÈÉÊẼÌÍÎĨÒÓÔÕÙÚÛŨ\s]/
+      - Any digit and alphabet letter with accents and whitespaces
 
 ======
 
