@@ -140,6 +140,8 @@ You can make your mask using some patterns available. If you use a pattern not s
       - Any alphabet letter without accents
    - **\#** =====> /[a-zA-ZçáàãâéèêẽíìĩîóòôõúùũüûÇÀÁÂÃÈÉÊẼÌÍÎĨÒÓÔÕÙÚÛŨ]/
       - Any alphabet letter with accents
+   - **\+** =====> /[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}/
+      - Special regex for e-mail validation
    - **\~** =====> /[a-zA-ZçáàãâéèêẽíìĩîóòôõúùũüûÇÀÁÂÃÈÉÊẼÌÍÎĨÒÓÔÕÙÚÛŨ\s]/
       - Any alphabet letter with accents and whitespaces
    - **%** =====> /[0-9a-zA-zçáàãâéèêẽíìĩîóòôõúùũüûÇÀÁÂÃÈÉÊẼÌÍÎĨÒÓÔÕÙÚÛŨ]/
